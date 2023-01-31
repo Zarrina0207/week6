@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .container {
+    max-width: 1140px;
+    margin: auto;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin: 85px 0;
+  }
+
+  .header ul {
+    display: flex;
+  }
+
+  .header li:not(:last-child) {
+   margin-right: 30px;
+   font-style: normal;
+   font-weight: 500px;
+   font-size: 17px;
+   line-height: 21px;
+  }
+
+  .button-1 {
+    width: 180px;
+    height: 50px;
+    background: #75BF7A;
+    border-radius: 6px;
+    border: none;
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+  }
+
+  .main-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 2fr 2fr 1fr;
+    gap: 30px;
+    height: 80vh;
+    background-color: honeydew;
+  }
+
+  .content-1 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    font-style: normal;
+    font-weight: 800px;
+    font-size: 30px;
+    line-height: 66px;
+  }
+
+  .content-2 {
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 14px;
+    line-height: 28px;
+    color: #9E9DA2;
+  }
+
+  .content-3 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+
+  .content-4 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+   
+  .sidebar {
+    grid-column: 3 / 4;
+    grid-row: 1 / 4;
+    height: 575px;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    max-height: 165px;
+    background-color: #75BF7A;
+    border-radius: 5px;
+    margin-top: 85px;
+  }
+
+  .text {
+    max-width: 246px;
+    height: 56px;
+    margin: 55px 0 55px 70px;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+  }
+
+  input {
+    width: 500px;
+    height: 67px;
+    margin: 50px 0;
+  }
+
+  .button-2 {
+    width: 220px;
+    height: 50px;
+    margin: 50px 0;
+    background: #000000;
+    font-style: normal;
+    font-size: 20px;
+    color: #FFFFFF;
+  }
+
+
+  
